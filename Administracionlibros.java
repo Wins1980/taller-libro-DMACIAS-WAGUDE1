@@ -7,15 +7,15 @@ public static void main (String[] args){
 
     System.out.println("Datos de libro 1: ");
     librouno.mostrarDatosLibro();
-    System.out.println("______________________________________________________________");
+    System.out.println("_______________________________________________________________");
     System.out.println("Datos de libro 2: ");
     librodos.mostrarDatosLibro();
-    System.out.println("______________________________________________________________");
-    System.out.println("______________________________________________________________");
+    System.out.println("_______________________________________________________________");
+    System.out.println("_______________________________________________________________");
     System.out.println("Paginas de Libro 1: " + librouno.getNumeroPaginas());
     librouno.setNumeroPaginas(1434);
     System.out.println("numero de paginas libro 1 modificado: " + librouno.getNumeroPaginas());
-    System.out.println("______________________________________________________________");
+    System.out.println("_______________________________________________________________");
 }
 
 }

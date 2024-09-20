@@ -1,25 +1,19 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Libro {
-
     String titulo;
     String autor;
     int numeroPaginas;
     int anoPublicacion;
-
     public Libro (String titulo, String autor, int numeroPaginas, int anoPublicacion) {
-
         this.titulo = titulo;
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
         this.anoPublicacion = anoPublicacion;
     }
-
-
     public String getTitulo() {
         return titulo;
     }
-
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
